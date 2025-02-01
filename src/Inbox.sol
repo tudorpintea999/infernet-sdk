@@ -36,7 +36,7 @@ contract Inbox is Coordinated {
 
     /// @notice containerId => delivering node address => array of delivered compute responses
     /// @dev Notice that validation of an `InboxItem` corresponding to a `containerId` is left to a downstream consumer
-    /// @dev Even though we have a `read` function for `items`, we keep visbility `public` because it may be useful to collect `InboxItem[]` length
+    /// @dev Even though we have a `read` function for `items`, we keep visibility `public` because it may be useful to collect `InboxItem[]` length
     mapping(bytes32 => mapping(address => InboxItem[])) public items;
 
     /*//////////////////////////////////////////////////////////////
