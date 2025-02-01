@@ -22,7 +22,7 @@ abstract contract SubscriptionConsumer is BaseConsumer {
     /// @notice Creates a recurring request for off-chain container compute via callback response
     /// @param containerId compute container identifier(s) used by off-chain Infernet node
     /// @param frequency max number of times to process subscription (i.e, `frequency == 1` is a one-time request)
-    /// @param period period, in seconds, at which to progress each responding `interval`
+    /// @param period, in seconds, at which to progress each responding `interval`
     /// @param redundancy number of unique responding Infernet nodes
     /// @param lazy whether to lazily store subscription responses in `Inbox`
     /// @param paymentToken If providing payment for compute, payment token address (address(0) for ETH, else ERC20 contract address)
