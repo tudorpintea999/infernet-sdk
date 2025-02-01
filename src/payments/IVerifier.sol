@@ -6,7 +6,7 @@ pragma solidity ^0.8.4;
 interface IVerifier {
     /// @notice Gets verifier contract's associated `Wallet` address
     /// @dev Does not necessarily have to conform to the exact `Wallet` spec. since this address does not need to authorize the coordinator for spend
-    /// @return `Wallet` address to receive proof verification payment
+    /// @return `Wallet` address to receive proof of verification payment
     function getWallet() external view returns (address);
 
     /// @notice Checks if `token` is accepted payment method by verifier contract
