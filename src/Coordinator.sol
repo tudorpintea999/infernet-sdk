@@ -150,10 +150,10 @@ contract Coordinator is ReentrancyGuard {
     /// @param node address of fulfilling node
     event SubscriptionFulfilled(uint32 indexed id, address indexed node);
 
-    /// @notice Emitted when a verifier returns with proof validity
+    /// @notice Emitted when a verifier returns with proof of validity
     /// @param id subscription ID
     /// @param interval subscription interval
-    /// @param node address of fulfilling node
+    /// @param node address of the fulfilling node
     /// @param active True if proof verification period still active, else False
     /// @param verifier address of verifier contract
     /// @param valid True if proof valid else False
