@@ -29,7 +29,7 @@ contract WalletFactory {
 
     /// @notice Emitted when a new `Wallet` is created
     /// @param caller `createWallet` call initiator
-    /// @param owner owner of `Wallet`
+    /// @param owner of `Wallet`
     /// @param wallet `Wallet` address
     event WalletCreated(address indexed caller, address indexed owner, address wallet);
 
