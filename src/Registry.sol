@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 /// @title Registry
 /// @notice Allows registering Infernet contracts for inter-contract discovery
-/// @dev Requires deploy-time decleration of contract addresses
+/// @dev Requires deploy-time declaration of contract addresses
 /// @dev Immutable with no upgradeability; used only for discovery
 contract Registry {
     /*//////////////////////////////////////////////////////////////
