@@ -8,7 +8,7 @@ import {Delegator} from "./pattern/Delegator.sol";
 import {Coordinator, Subscription} from "./Coordinator.sol";
 
 /// @title EIP712Coordinator
-/// @notice Coordinator enhanced with ability to created subscriptions via off-chain EIP-712 signature
+/// @notice Coordinator enhanced with ability to create subscriptions via off-chain EIP-712 signature
 /// @dev Allows creating a subscription on behalf of a contract via delegatee EOA signature
 /// @dev Allows nodes to atomically create subscriptions and deliver compute responses
 contract EIP712Coordinator is EIP712, Coordinator {
